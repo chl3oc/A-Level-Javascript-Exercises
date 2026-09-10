@@ -2,6 +2,12 @@
 document.getElementById('calculateBtn').addEventListener('click', calculate);
 
 function calculate() {
+    let numberA = (document.getElementById('numberA').value);
+    let numberB = (document.getElementById('numberB').value);
+    let numberC = (document.getElementById('numberC').value);
+    let average = (A + B + C) / 3;
+    let product = A * B * C;
+    let expression = A + (B * C);
     // TODO:
     // 1. Get the three numbers (A, B, C) from the input fields
     // 2. Calculate:
@@ -10,3 +16,7 @@ function calculate() {
     //    - A + (B × C)
     // 3. Display the results in the respective span elements
 }
+document.getElementById('average').addEventListener('click', output-section);
+document.getElementById('product').addEventListener('click', output-section);
+document.getElementById('expression').addEventListener('click', output-section);
+
