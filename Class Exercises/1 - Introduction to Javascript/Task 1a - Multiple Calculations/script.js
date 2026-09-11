@@ -5,9 +5,9 @@ function calculate() {
     let numberA = (document.getElementById('numberA').value);
     let numberB = (document.getElementById('numberB').value);
     let numberC = (document.getElementById('numberC').value);
-    let average = (A + B + C) / 3;
-    let product = A * B * C;
-    let expression = A + (B * C);
+    let average = (numberA + numberB + numberC) / 3;
+    let product = numberA * numberB * numberC;
+    let expression = numberA + (numberB * numberC);
     // TODO:
     // 1. Get the three numbers (A, B, C) from the input fields
     // 2. Calculate:
