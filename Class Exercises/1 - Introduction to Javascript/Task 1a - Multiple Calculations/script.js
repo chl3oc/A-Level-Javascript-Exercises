@@ -16,7 +16,7 @@ function calculate() {
     //    - A + (B × C)
     // 3. Display the results in the respective span elements
 }
-document.getElementById('average').addEventListener('click', output-section);
-document.getElementById('product').addEventListener('click', output-section);
-document.getElementById('expression').addEventListener('click', output-section);
+document.getElementById('average').textContent = average;
+document.getElementById('product').textContent = product;
+document.getElementById('expression').textContent = expression;
 
