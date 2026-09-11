@@ -15,8 +15,8 @@ function calculate() {
     //    - A × B × C
     //    - A + (B × C)
     // 3. Display the results in the respective span elements
-}
 document.getElementById('average').textContent = average;
 document.getElementById('product').textContent = product;
 document.getElementById('expression').textContent = expression;
+}
 
